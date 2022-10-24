@@ -1,0 +1,39 @@
+.NavMenu-container{
+   
+   display: none;
+}
+.NavMenu-container-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #28282b;
+    display: block;
+    color: #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Dancing Script';
+    font-size: 52px;
+}
+
+.Lion-image{
+    position: absolute;
+    left:0;
+    transform: translateX(-60%) translateY(3%) scale(1.3);
+    opacity: .15;
+    
+}
+.Crown-image{
+    position: absolute;
+    right: -15%;
+    transform: scale(.7);
+    /* opacity: .15; */
+}
+.navItem:hover{
+    color: white;
+    opacity: .9;
+    cursor: pointer;
+    transform: scale(1.1);
+}

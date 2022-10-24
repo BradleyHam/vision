@@ -1,0 +1,27 @@
+.hamburger-container{
+    background: #28282b;
+    width: 50px;
+    position: fixed;
+    z-index: 300;
+    right: 35px;
+}
+
+.hamburger-container-outer{
+    /* content: 'hello';
+    right: 0;
+    position: fixed;
+    background: #28282b;
+    width: 300px!important;
+    height: 300px;
+     */
+} 
+ .cirlce-background{
+    content: 'hello';
+    right: 0;
+    position: fixed;
+    background: #28282b;
+    width: 300px!important;
+    height: 300px;
+    transform: translateX(50%) translateY(-65%);
+    border-radius: 50%;
+}
